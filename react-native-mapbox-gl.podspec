@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     s.default_subspecs= ['DynamicLibrary']
   else
     s.subspec 'StaticLibraryFixer' do |sp|
-      s.dependency '@react-native-mapbox-gl-mapbox-static', '~> 5.5.1'
+      s.dependency '@react-native-mapbox-gl-mapbox-static', '~> 5.8'
     end
 
     s.default_subspecs= ['DynamicLibrary', 'StaticLibraryFixer']
